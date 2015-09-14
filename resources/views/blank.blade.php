@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>@yield('title')</title>
+        @section('links')
+        @show
+    </head>
+    <body>
+        @section('container')
+        @show
+    </body>
+    <footer>
+        @section('scripts')
+        @show
+    </footer>
+</html>
